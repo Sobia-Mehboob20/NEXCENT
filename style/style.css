@@ -1,0 +1,508 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+nav {
+    background-color: rgb(149, 249, 215);
+    height: 150px;
+    display: flex;
+    gap: 1090px;
+
+}
+
+h4 {
+
+    color: rgb(19, 72, 19);
+    font-family: "Work Sans:Regular", sans-serif;
+    margin-top: 49px;
+    padding: 10px;
+    margin-left: 5px;
+    font-size: medium;
+}
+
+.nav1 {
+    display: flex;
+    background-color: rgb(149, 249, 215);
+    gap: 16px;
+}
+
+h6 {
+    color: rgb(54, 111, 54);
+    margin-top: 60px;
+       font-size: medium;
+    font-family: "Work Sans:Regular", sans-serif;
+}
+
+button {
+    height: 25px;
+    width: 160px;
+    margin-top: 52px;
+    border-radius: 20px;
+    background-color: rgb(21, 73, 21);
+    color: aliceblue;
+}
+
+
+.main{
+    background-color: rgb(149, 249, 215);
+    width:100%;
+    height:550px;
+    display: flex;
+}
+
+.left{
+ 
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    gap: none;
+  text-align:start;
+
+}
+.left h1{
+    font-size: 70px;
+    font-weight: 400;
+ font-family: "Work Sans:Regular", sans-serif;
+    margin-left: 30px;
+    margin-top: 90px;
+    color: rgb(7, 84, 7);
+ 
+    
+}
+.left p{
+     color: rgb(7, 84, 7);
+    margin-left: 40px;
+    font-size: 18px;
+}
+.left button{
+    background-color: rgb(7, 84, 7);
+    margin-left: 35px;
+    height:30px;
+    margin-top: 20px;
+}
+
+.right{
+     width:40%;
+
+}
+.right img{
+    width:70%;
+    margin-top: 45px;
+    margin-left: 60px;
+}
+/*secong*/
+
+.second{
+    background-color: rgb(248, 254, 254);
+    margin-top: 60px;
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:550px;
+}
+.second p{
+       color: rgb(5, 56, 5);
+    font-size: 20px;
+}
+.second h4{
+ font-family: "Work Sans:Regular", sans-serif;
+    color: rgb(7, 84, 7);
+ font-size: 55px;
+ text-align: center;
+    font-weight: 400;
+    margin-top: 0;
+ 
+    
+}
+.second button{
+    background-color: rgb(7, 84, 7);
+    margin-left: 35px;
+    height:30px;
+    margin-top: 20px;
+}
+
+ /*third*/
+
+.third{
+    display:flex;
+    width:80%;
+    height:430px;
+       border-radius: 20px;
+    background-color: rgb(196, 240, 226);
+    margin-left: 20px;
+}
+.l-third{
+    width:40%;
+}
+.l-third img{
+    width:100%;
+    height: 400px;
+    padding: 20px;
+}
+.r-third{
+    width:60%;
+}
+.r-third h3{
+ font-size: 50px;
+    font-weight: 400;
+ font-family: "Work Sans:Regular", sans-serif;
+    margin-left: 30px;
+    margin-top: 90px;
+    color: rgb(7, 84, 7);
+}
+.r-third p{
+      color: rgb(5, 56, 5);
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.inner{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    justify-content: start;
+}
+.inner button{
+    width:15%;
+    height:40px;
+    margin-left: 10px;
+    border-radius: 10px;
+    color:rgb(88, 88, 88);
+background-color: white;
+}
+
+
+/*FOURTH*/
+
+.fourth{
+    display:flex;
+    width:72%;
+    height:350px;
+       border-radius: 20px;
+    background-color: rgb(196, 240, 226);
+    margin-left: 400px;
+    margin-right: 20px;
+    margin-top: 30px;
+
+}
+.l-fourth{
+    width:40%;
+}
+.l-fourth img{
+    width:100%;
+    height: 400px;
+    padding: 20px;
+}
+.r-fourth{
+    width:60%;
+}
+.r-fourth h3{
+ font-size: 50px;
+    font-weight: 400;
+ font-family: "Work Sans:Regular", sans-serif;
+    margin-left: 30px;
+    margin-top: 90px;
+    color: rgb(7, 84, 7);
+}
+.r-fourth p{
+      color: rgb(5, 56, 5);
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.innerf{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    justify-content: start;
+}
+.innerf button{
+    width:15%;
+    height:40px;
+    margin-left: 10px;
+    border-radius: 10px;
+    color:rgb(88, 88, 88);
+background-color: white;
+}
+
+/*third*/
+
+.third{
+    display:flex;
+    width:80%;
+    height:430px;
+       border-radius: 20px;
+    background-color: rgb(196, 240, 226);
+    margin-left: 20px;
+}
+.l-third{
+    width:40%;
+}
+.l-third img{
+    width:100%;
+    height: 400px;
+    padding: 20px;
+}
+.r-third{
+    width:60%;
+}
+.r-third h3{
+ font-size: 50px;
+    font-weight: 400;
+ font-family: "Work Sans:Regular", sans-serif;
+    margin-left: 30px;
+    margin-top: 90px;
+    color: rgb(7, 84, 7);
+}
+.r-third p{
+      color: rgb(5, 56, 5);
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.inner{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    justify-content: start;
+}
+.inner button{
+    width:15%;
+    height:40px;
+    margin-left: 10px;
+    border-radius: 10px;
+    color:rgb(88, 88, 88);
+background-color: white;
+}
+
+
+/*fifth*/
+
+.fifth{
+    display:flex;
+    width:70%;
+    height:420px;
+    background-color: rgb(196, 240, 226);
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+
+}
+.l-fifth{
+    width:40%;
+}
+.l-fifth img{
+    width:100%;
+    height: 400px;
+    padding: 50px;
+    margin-top: 20px;
+}
+.r-fifth{
+    width:60%;
+}
+.r-fifth h3{
+ font-size: 50px;
+    font-weight: 400;
+ font-family: "Work Sans:Regular", sans-serif;
+    margin-left: 30px;
+    margin-top: 90px;
+    color: rgb(7, 84, 7);
+}
+.r-fifth p{
+      color: rgb(5, 56, 5);
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.innerfi{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    justify-content: start;
+}
+.innerfi button{
+    width:15%;
+    height:40px;
+    margin-left: 10px;
+    border-radius: 10px;
+    color:rgb(88, 88, 88);
+background-color: white;
+}
+
+.logos{
+    width:100%;
+    height:450px;
+    display: flex;
+    justify-content: space-around;
+ 
+}
+.l-logo{
+    width:30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.m-logo{
+
+     width:30%;
+      margin-top: 30px;
+    margin-bottom: 30px;
+}
+.r-logo{
+
+     width:30%;
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      gap:19px;
+      padding:50px;
+    margin-bottom: 30px;
+  
+}
+.r-logo h3{
+
+ font-size: 30px;
+ font-family: "Work Sans:Regular", sans-serif;
+    color: rgb(22, 58, 22);
+}
+.r-logo p{
+      color: rgb(5, 56, 5);
+    font-size: 18px;
+
+}
+.r-logo h1{
+      color: rgb(5, 56, 5);
+    font-size: 18px;
+
+}
+.r-logo img{
+height:40px;
+width:15%;
+}
+
+.m-logo{
+
+     width:30%;
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      gap:19px;
+      padding:50px;
+    margin-bottom: 30px;
+  
+}
+.m-logo h3{
+
+ font-size: 30px;
+ font-family: "Work Sans:Regular", sans-serif;
+    color: rgb(22, 58, 22);
+}
+.m-logo p{
+      color: rgb(5, 56, 5);
+    font-size: 18px;
+
+}
+.m-logo h1{
+      color: rgb(5, 56, 5);
+    font-size: 18px;
+
+}
+.m-logo img{
+height:40px;
+width:15%;
+}
+
+.l-logo{
+   
+     width:30%;
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      gap:19px;
+      padding:50px;
+    margin-bottom: 30px;
+  
+}
+.l-logo h3{
+
+ font-size: 30px;
+ font-family: "Work Sans:Regular", sans-serif;
+    color: rgb(22, 58, 22);
+}
+.l-logo p{
+      color: rgb(5, 56, 5);
+    font-size: 18px;
+
+}
+.l-logo h1{
+      color: rgb(5, 56, 5);
+    font-size: 18px;
+
+}
+.l-logo img{
+height:40px;
+width:15%;
+}
+
+
+
+footer{
+    display: flex;
+    height:360px;
+    width:100%;
+    background-color: rgb(22, 58, 22);;
+}
+.l-f{
+    display: flex;
+    flex-direction: column;
+    gap:219px;
+    width:50%;
+    margin-left: 30px;
+}
+.l-f h3{
+     font-size: 30px;
+ font-family: "Work Sans:Regular", sans-serif;
+    color: rgb(242, 251, 242);
+    padding: 30px;
+    
+}
+.l-f p{
+     color: rgb(251, 254, 251);
+    font-size: 14px;
+}
+.r-f{
+    display: flex;
+    width:50%;
+    flex-direction: column;
+    gap:250px;
+}
+.r-ff{
+    display: flex;
+    align-items: flex-start;
+    gap:7px;
+}
+.r-ff p{
+     color: rgb(251, 254, 251);
+    font-size: 15px;
+    margin-top: 60px;
+
+}
+.r-ff button{
+    background-color: bisque;
+    color: green;
+    height:30px;
+    width:150px;
+    border:navajowhite;
+    box-shadow: 2px 2px 2px white;
+   
+}
+.r-fff p{
+     color: rgb(251, 254, 251);
+    font-size: 15px;
+    margin-bottom: 20px;
+}
